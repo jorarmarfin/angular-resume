@@ -1,0 +1,59 @@
+{
+    "experiencia":[
+        {
+            "periodo":"2007 - 2010",
+            "cargo":"Jefe de Area",
+            "institucion":"Universidad Nacional de Ingenieria",
+            "detalle":"Universidad Nacional de Ingenieria",
+            "activo":"active"
+        }
+    ],
+    "educacion":[
+        {
+            "periodo":"Jefe de Area",
+            "cargo":"Jefe de Area",
+            "institucion":"Universidad Nacional de Ingenieria",
+            "detalle":"Universidad Nacional de Ingenieria",
+            "activo":"active"
+
+        }
+    ],
+    "diseno":[
+        {
+            "nombre":"Web Design",
+            "porcentaje":"90"
+        }
+    ],
+    "idioma":[
+        {
+            "nombre":"Ingles",
+            "porcentaje":"50"
+        }
+    ],
+    "codigo":[
+        {
+            "nombre":"Angular / JavaScript",
+            "porcentaje":"60"
+        },
+        {
+            "nombre":"Ionic",
+            "porcentaje":"60"
+        },
+        {
+            "nombre":"PHP / MYSQL",
+            "porcentaje":"80"
+        },
+        {
+            "nombre":"HTML / CSS",
+            "porcentaje":"80"
+        }
+    ],
+    "conocimiento":[
+        {
+            "nombre":"Linux"
+        },
+        {
+            "nombre":"Diseño Web"
+        }
+    ]
+}

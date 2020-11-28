@@ -1,0 +1,15 @@
+{
+  "nombre_completo": "Luis Fernando Mayta Campos",
+  "category": [
+    { "nombre": "Web Designer" },
+    { "nombre": "Developer" },
+    { "nombre": "FullStack" },
+    { "nombre": "Management Project" }
+  ],
+  "social": [
+    {
+      "url": "https://www.facebook.com/luis.mayta",
+      "icon": "fa fa-facebook"
+    }
+  ]
+}

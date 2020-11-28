@@ -1,0 +1,144 @@
+<div class="card-inner" id="resume-card">
+    <div class="card-wrap">
+
+        <!--
+            Resume
+        -->
+        <div class="content resume">
+
+            <!-- title -->
+            <div class="title">Curriculum</div>
+
+            <!-- content -->
+            <div class="row">
+
+                <!-- experience -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="resume-title border-line-h">
+                        <div class="icon"><i class="fa fa-briefcase"></i></div>
+                        <div class="name">Experiencia</div>
+                    </div>
+                    <div class="resume-items">
+                        <div class="resume-item border-line-h" *ngFor="let item of resume.experiencia" [ngClass]="item.activo">
+                            <div class="date">{{ item.periodo }}</div>
+                            <div class="name">{{ item.cargo }}</div>
+                            <div class="company">{{ item.institucion }}</div>
+                            <p>
+                                {{ item.detalle }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- education -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="resume-title border-line-h">
+                        <div class="icon"><i class="fa fa-university"></i></div>
+                        <div class="name">Educación</div>
+                    </div>
+                    <div class="resume-items" >
+                        <div class="resume-item border-line-h" *ngFor="let item of resume.educacion" [ngClass]="item.activo">
+                            <div class="date">{{ item.periodo }}</div>
+                            <div class="name">{{ item.cargo }}</div>
+                            <div class="company">{{ item.institucion }}</div>
+                            <p>
+                                {{ item.detalle }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+
+        <!--
+            Skills
+        -->
+        <div class="content skills">
+
+            <!-- title -->
+            <div class="title">Habilidades</div>
+        
+            <!-- content -->
+            <div class="row">
+            
+                <!-- skill item -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list">
+                        <div class="skill-title border-line-h">
+                            <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                            <div class="name">Design</div>
+                        </div>
+                        <ul>
+                            <li class="border-line-h" *ngFor="let item of resume.diseno"> 
+                                <div class="name">{{ item.nombre }}</div>
+                                <div class="progress">
+                                    <div class="percentage" style="width:{{ item.porcentaje }}%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- skill item -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list dotted">
+                        <div class="skill-title border-line-h">
+                            <div class="icon"><i class="fa fa-flag"></i></div>
+                            <div class="name">Languages</div>
+                        </div>
+                        <ul>
+                            <li class="border-line-h" *ngFor="let item of resume.idioma"> 
+                                <div class="name">{{ item.nombre }}</div>
+                                <div class="progress">
+                                    <div class="percentage" style="width:{{ item.porcentaje }}%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- skill item -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list circles">
+                        <div class="skill-title border-line-h">
+                            <div class="icon"><i class="fa fa-code"></i></div>
+                            <div class="name">Codigo</div>
+                        </div>
+                        <ul>
+                            <li *ngFor="let item of resume.codigo"> 
+                                <div class="name">{{ item.nombre }}</div>
+                                <div class="progress p{{ item.porcentaje }}">
+                                    <span>{{ item.porcentaje }}%</span>
+                                    <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- skill item -->
+                <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+                    <div class="skills-list list">
+                        <div class="skill-title border-line-h">
+                            <div class="icon"><i class="fa fa-list"></i></div>
+                            <div class="name">Knowledge</div>
+                        </div>
+                        <ul>
+                            <li *ngFor="let item of resume.conocimiento"> 
+                                <div class="name">{{ item.nombre }}</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+            
+        </div>
+
+
+    </div>
+</div>

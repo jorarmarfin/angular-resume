@@ -1,0 +1,64 @@
+{
+  "me": {
+    "descripcion": "Hola mi nombre es Luis Mayta, Fullstack señior, h erealizado proyectos den diversos lenguajes.",
+    "edad": 40,
+    "residencia": "Perú",
+    "direccion": "San Juan de Lurigancho"
+  },
+
+  "servicios": [
+    {
+      "nombre": "Jefe de Proyectos",
+      "icon": "fa fa-code",
+      "descripcion": "descripcion 1"
+    },
+    {
+      "nombre": "Desarrollador web",
+      "icon": "fa fa-code",
+      "descripcion": "descripcion 2"
+    }
+  ],
+  "gustos": [
+    {
+      "nombre": "Jefe de Proyectos",
+      "icon": "fa fa-code"
+    },
+    {
+      "nombre": "Desarrollador web",
+      "icon": "fa fa-code"
+    }
+  ],
+  "clientes": [
+    {
+      "imagen": "/assets/images/clients/client_1.png",
+      "link": "https://google.com"
+    },
+    {
+      "imagen": "/assets/images/clients/client_1.png",
+      "link": "https://google.com"
+    }
+  ],
+  "productos":[
+    {
+      "icon":"fa fa-battery-half",
+      "nombre":"Basic",
+      "costo":"100",
+      "caracteristicas":[
+        {
+          "nombre":"Web Development"
+        },
+        {
+          "nombre":"Advetising"
+        },
+        {
+          "nombre":"Web Development"
+        },
+        {
+          "nombre":"Game Development"
+        }
+      ],
+      "link":"100"
+    }
+  ],
+  "pensamiento": "El trabajo dignifica al hombre"
+}
